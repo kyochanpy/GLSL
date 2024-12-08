@@ -26,6 +26,6 @@ void main() {
   vDistanceToMouse = minDistance;
 
   float invertedDistance = 0.3 / (minDistance + 0.0001);
-  float maxPointSize = 2.0;
+  float maxPointSize = 5.0;
   gl_PointSize = min(size * pointScale * invertedDistance, maxPointSize);
 }
